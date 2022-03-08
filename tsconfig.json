@@ -1,0 +1,38 @@
+{
+	/* 設定參考 https://zhuanlan.zhihu.com/p/342138002 */
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ESNext",
+		"outDir": "out",
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"strict": true, /* enable all strict type-checking options */
+		/* Additional Checks */
+		"noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+		"noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+		"noUnusedParameters": true, /* Report errors on unused parameters. */
+		"noUncheckedIndexedAccess": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"incremental": true,
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+		"isolatedModules": true,
+		"types": [
+			"node"
+		]
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"**/node_modules",
+		"**/.*/",
+		".vscode-test"
+	]
+}
