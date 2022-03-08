@@ -2,7 +2,7 @@
 	"name": "demo-await-postfix-operator",
 	"displayName": "Demo for idea: await postfix operator",
 	"description": "Demo extension for JavaScript await postfix operator idea.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "tzengshinfu",
 	"repository": {
 		"type": "git",
@@ -88,7 +88,9 @@
 		"@babel/parser": "^7.16.12",
 		"@babel/traverse": "^7.16.10",
 		"comlink": "^4.3.1",
+		"g": "^2.0.1",
 		"throttle-debounce": "^3.0.1",
-		"tslib": "^2.3.1"
+		"tslib": "^2.3.1",
+		"vsce": "^1.103.1"
 	}
 }

@@ -18,3 +18,7 @@ Demo extension for JavaScript await postfix operator idea.
 * The result is going to show on the right side of the editor window.
 
   P.S. If VS Code detects wrong file type, please click the button 'Select Language Mode' then select 'Auto Detect'.
+
+**Assets**
+---
+* [Arroba icons created by SBTS2018 - Flaticon](https://www.flaticon.com/free-icons/arroba)
